@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+.navbar ul{
+    list-style-type: none;
+    background-image: url(do.jpg);
+    padding:0%;
+    margin: 0%;
+    overflow: hidden;
+    width: 100%;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(90, 1, 60);
+    display: block;
+    text-align:center;
+    padding: 15px;
+}
+.navbar a:hover{
+    background-color: rgb(243, 229, 240);
+    text-decoration: underline;
+    border-radius: 50%;
+}
+body{
+    background-color: rgb(251, 241, 251);
+}
+#name{
+    font: 1.5em sans-serif;
+    padding-left: 5%;
+    padding-top: 1%;
+    float:left;
+}
+.navbar li{
+    float: right;
+    text-align: right;
+    padding-left: 1%;
+}
+#last{
+    background-image: url(do.jpg);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 0.1px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+}
+.icons a{
+    text-decoration: none;
+    padding: 6%;
+}
+.icons img{
+    height: 50px;
+    align-content: center;
+}
+#text{
+    animation-name: slideleft;
+    animation-duration: 2s;
+}
+@keyframes slideleft{
+    from{ transform: translateX(50%)}
+}
+#heading{
+    animation-name: fade;
+    opacity: 1;
+    animation-duration: 8s;
+}
+@keyframes fade {
+    50%{opacity: 0;}
+}
+b{
+    color: rgb(152, 18, 96);
+}
+#productname{
+    font: 2em Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: wavy;
+    color: rgb(152, 18, 96);
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+}
+#productname button{
+    background-color: rgb(152, 18, 96);
+    color: #ffffff;
+    padding: 10px;
+    font: bold;
+    border-radius: 20px;
+}
+#productname button:hover{
+    background-color: rgb(102, 14, 66);
+    box-shadow: 10px 10px 8px #c4bfbf;
+}
+#productname button:active{
+    background-color: rgb(198, 22, 124);
+}

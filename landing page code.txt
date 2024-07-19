@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LANDING PAGE</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <span>
+                    <li id="name" style="color: rgb(158, 70, 93)">
+                        <b> BEAUTY QUEENS </b>
+                    </li>
+                    <li>
+                        <a href=""><img src="cart.png" style="height: 22px;"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="wishlist.jpg" style="height: 20px;"></a>
+                    </li>
+                    <li id="home">
+                        <a href=""><i> CONTACT </i></a>
+                    </li>
+                    <li>
+                        <a href=""><i> ABOUT </i></a>
+                    </li>
+                    <li>
+                        <a href=""><i> COMBOS </i></a>
+                    </li>
+                    <li>
+                        <a href=""><i> PRODUCTS </i></a>
+                    </li>
+                </span>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <link rel="stylesheet" href="style.css">
+        <div style="background-image: url(bg.jpeg); position: static; background-size: 100%; background-repeat: no-repeat;display: flex;flex-direction: column; margin: 0%;height: 800px; padding-top: 0%;margin-top: 0%;display: flex;flex-direction: column;" id="text">
+            <h1 style="color: rgb(152, 18, 96);font: 4em sans-serif;position: absolute;line-height: 600%;">LET YOUR REAL</h1>
+            <h1 style="color: rgb(152, 18, 96);font:4em italic;position: absolute;line-height: 800%; ">BEAUTY GLOW...</h1>
+            <h4 style="color: rgb(243, 3, 143) ;font: 1.5em sans-serif;position: absolute;line-height: 2520%;">with our high-quality hydrating skincare products</h4>
+        </div>
+        <div>
+            <hr style="color: black solid;">
+            <h1 style="text-align: center;color:  rgb(55, 12, 23); text-shadow: 5px 5px 10px rgba(152, 18, 96, 0.664);"id="heading">PRODUCTS</h1>
+            <p style="font: 1.2em sans-serif;text-align: center; color: rgb(124, 78, 105);">Unlock the secret to flawless makeup application with our professional-grade cosmetics, offering a diverse range of shades and finishes to enhance
+                 your unique beauty and help you express your individual style.
+            </p>
+            <br><br>
+            <img src="lipstick_PNG76258.png" alt="lipstick" style="height: 200px;padding-left: 10%;">
+            <img src="81326-cosmetics-makeup-powder-face-hd-image-free-png.png" alt="compact powder" style="float: right; height: 200px; padding-right: 10%;">
+            <img src="makeup-clipart-foundation-16.png" alt="foundation" style="height: 200px; float: center; padding-left: 5%;">
+            <img src="pngtree-radiant-glow-closeup-of-premium-skincare-cream-jar-elegance-in-a-png-image_12713395.png" alt="cream" style="height: 200px;padding-left: 5%; float: center;">
+            <div id="productname">
+                <pre>            Lipsticks               Foundations          Creams                  Compacts           
+            &#8377 350.00                &#8377 800.00           &#8377 500.00                 &#8377 1500.00
+             <button>Add To Cart</button>                  <button>Add To Cart</button>            <button>Add To Cart</button>                   <button>Add To Cart</button> 
+                </pre>
+            </div>
+        </div>
+        <div>
+            <hr style="color: black solid;">
+            <h1 style="text-align: center;color: rgb(55, 12, 23); text-shadow: 3px brown;text-shadow: 5px 5px 10px rgb(152, 18, 96, 0.664);" id="heading">COMBOS</h1>
+        <div style="background-color: rgb(152, 18, 96);">
+            <img src="cosmetic-parts-face-beauty.jpg" alt="cosmetic combos" style="width: 50%; height: fit-content;">
+            <p style="float: right; text-align: center; padding-right: 5%; padding-top: 5%;  color: rgb(255, 255, 255); font: 1.2em sans-serif;">
+                Discover the power of multitasking beauty with our innovative <br>combo products.<br>These clever 2-in-1 and 3-in-1 formulations are designed<br> to streamline your routine without compromising on results.<br>
+                <br>Our tinted moisturizer with SPF provides hydration,
+                <br>sun protection, and light coverage in one easy step,<br> perfect for busy mornings or a natural look. 
+                <br>Also try our other products.
+                <br><br>
+                <button style="display: block;color: rgb(55, 12, 23);margin-left: 40%; padding: 3.5%; border: none; border-radius: 5px;"> Know More </button>
+            </p>
+        </div>
+        </div>
+        <div>
+            <hr style="color: black solid;">
+            <h1 style="text-align: center;color:  rgb(55, 12, 23);text-shadow: 5px 5px 10px rgb(152, 18, 96, 0.664);"id="heading">ABOUT</h1>
+            <Pre style=" color: rgb(124, 78, 105); font: 1.2em sans-serif; text-align: center; ">
+Welcome to <i>BEAUTY QUEENS</i>, where artistry meets innovation in makeup.
+
+<b>Our Story</b>
+Founded in 1989, <i>BEAUTY QUEENS</i> was inspired by a passion for color, creativity, and inclusivity.
+Our journey began with a dream to create high-quality, accessible makeup products that cater to all skin tones and types.
+Today, we are proud to be a leading brand in the beauty industry, celebrated for our innovative products and inclusive approach.
+
+<b>Customer-Centric Approach</b>
+Our customers are at the heart of our brand.
+We are dedicated to providing an exceptional experience, from product development to customer service.
+Your feedback drives us to continuously innovate and improve.
+We are here to support your beauty journey and help you achieve your desired looks.
+
+Thank you for choosing <i>BEAUTY QUEENS</i>.
+Your beauty, our passion.
+            </Pre>
+        </div>
+        <div>
+            <hr>
+            <h1 style="text-align: center;color:  rgb(55, 12, 23);text-shadow: 5px 5px 10px rgb(152, 18, 96, 0.664);" id="heading">CONTACT US</h1>
+            <div class="icons">
+                <a href="tel:+917834100561">
+                    <img src="phone-receiver-silhouette_1257.png" alt="contacts icon" style="padding-left: 26%;">
+                </a>
+                <a href="mailto: beautyqueens@gmail.com">
+                    <img src="email_161179.png" alt="email icon" >
+                </a>
+                <a href="https://www.instagram.com">
+                    <img src="instagram_1400829.png" alt="intagram icon" >
+                </a>
+            </div>
+        </div>        
+    </main>
+<footer id="last">
+    <h3>&copy; 1989 Beauty Queens|All Rights Reserved</h3>
+</footer>
+</body>
+</html>
+
+
+**********************************CSS*********************************
+
+*{
+    box-sizing: border-box;
+}
+.navbar ul{
+    list-style-type: none;
+    background-image: url(do.jpg);
+    padding:0%;
+    margin: 0%;
+    overflow: hidden;
+    width: 100%;
+}
+.navbar a{
+    text-decoration: none;
+    color: rgb(90, 1, 60);
+    display: block;
+    text-align:center;
+    padding: 15px;
+}
+.navbar a:hover{
+    background-color: rgb(243, 229, 240);
+    text-decoration: underline;
+    border-radius: 50%;
+}
+body{
+    background-color: rgb(251, 241, 251);
+}
+#name{
+    font: 1.5em sans-serif;
+    padding-left: 5%;
+    padding-top: 1%;
+    float:left;
+}
+.navbar li{
+    float: right;
+    text-align: right;
+    padding-left: 1%;
+}
+#last{
+    background-image: url(do.jpg);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 0.1px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+}
+.icons a{
+    text-decoration: none;
+    padding: 6%;
+}
+.icons img{
+    height: 50px;
+    align-content: center;
+}
+#text{
+    animation-name: slideleft;
+    animation-duration: 2s;
+}
+@keyframes slideleft{
+    from{ transform: translateX(50%)}
+}
+#heading{
+    animation-name: fade;
+    opacity: 1;
+    animation-duration: 8s;
+}
+@keyframes fade {
+    50%{opacity: 0;}
+}
+b{
+    color: rgb(152, 18, 96);
+}
+#productname{
+    font: 2em Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: wavy;
+    color: rgb(152, 18, 96);
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+}
+#productname button{
+    background-color: rgb(152, 18, 96);
+    color: #ffffff;
+    padding: 10px;
+    font: bold;
+    border-radius: 20px;
+}
+#productname button:hover{
+    background-color: rgb(102, 14, 66);
+    box-shadow: 10px 10px 8px #c4bfbf;
+}
+#productname button:active{
+    background-color: rgb(198, 22, 124);
+}
